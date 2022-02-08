@@ -21,7 +21,7 @@
     except ZeroDivisionError:\
         return np.nan\
 
-vwret = df.groupby(['DATE','BMDecile']).apply(wavg, 'RET','mvlag')\
-vwret = vwret.reset_index().rename(columns={0:'ret'})\
+  vwret = df.groupby(['DATE','BMDecile']).apply(wavg, 'RET','mvlag')\
+  vwret = vwret.reset_index().rename(columns={0:'ret'})\
 
 * Print and plot the value-weighted mean returns.  We can think about the relation between the book-to-market ratio and returns
