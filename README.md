@@ -1,4 +1,4 @@
-# In this file, I am going to examine whether signals are related to alpha within a specific industry. I have previously downloaded a dataset with signals and returns related to this industry. You can find the dataset here: https://drive.google.com/file/d/1o1KhXdSjx2YYjQsPELPBj_wOMROKYCLM/view?usp=sharing 
+# In this file, I am going to examine whether signals are related to the return within a specific industry. I have previously downloaded a dataset with signals and returns related to this industry. You can find the dataset here: https://drive.google.com/file/d/1o1KhXdSjx2YYjQsPELPBj_wOMROKYCLM/view?usp=sharing 
 <br/><br/>
 ## Task to complete
 * Use .describe() to display the 1st, 5th, 25th, 50th, 75th, 95th, and 99th percentile of 'RET' and 'beme'.  We can find there are some apparent outliers.
